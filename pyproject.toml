@@ -1,0 +1,19 @@
+[project]
+name = "fastapi_playground"
+version = "0.1.0"
+description = "Playground FastAPI and sqlalchemy"
+authors = [
+    {name = "yasunori0418", email = "yasunori.kirin0418@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
