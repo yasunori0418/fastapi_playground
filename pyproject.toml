@@ -5,7 +5,11 @@ description = "Playground FastAPI and sqlalchemy"
 authors = [
     {name = "yasunori0418", email = "yasunori.kirin0418@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.110.2",
+    "uvicorn>=0.29.0",
+    "sqlalchemy>=2.0.29",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
@@ -17,3 +21,9 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.1.1",
+    "debugpy>=1.8.1",
+]
