@@ -1,5 +1,5 @@
 [project]
-name = "fastapi_playground"
+name = "playground"
 version = "0.1.0"
 description = "Playground FastAPI and sqlalchemy"
 authors = [
