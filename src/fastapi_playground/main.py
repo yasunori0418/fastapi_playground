@@ -1,8 +1,6 @@
 from fastapi import FastAPI
+from fastapi_playground.routers import task
 
 app = FastAPI()
 
-
-@app.get("/")
-def root():
-    return {"message": "Hello world"}
+app.include_router(task.router)
