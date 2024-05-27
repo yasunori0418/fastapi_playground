@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from fastapi_playground.routers import task
+from playground.routers import task
 
 app = FastAPI()
 
